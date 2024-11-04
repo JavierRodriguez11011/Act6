@@ -132,32 +132,6 @@ bs2_default\fast:
 .PHONY : bs2_default\fast
 
 #=============================================================================
-# Target rules for targets named picotoolForceReconfigure
-
-# Build rule for target.
-picotoolForceReconfigure: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) picotoolForceReconfigure
-.PHONY : picotoolForceReconfigure
-
-# fast build rule for target.
-picotoolForceReconfigure\fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2040\boot_stage2\CMakeFiles\picotoolForceReconfigure.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2040\boot_stage2\CMakeFiles\picotoolForceReconfigure.dir\build
-.PHONY : picotoolForceReconfigure\fast
-
-#=============================================================================
-# Target rules for targets named picotoolBuild
-
-# Build rule for target.
-picotoolBuild: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) picotoolBuild
-.PHONY : picotoolBuild
-
-# fast build rule for target.
-picotoolBuild\fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2040\boot_stage2\CMakeFiles\picotoolBuild.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2040\boot_stage2\CMakeFiles\picotoolBuild.dir\build
-.PHONY : picotoolBuild\fast
-
-#=============================================================================
 # Target rules for targets named bs2_default_bin
 
 # Build rule for target.
@@ -1385,8 +1359,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
-	@echo ... picotoolBuild
-	@echo ... picotoolForceReconfigure
 	@echo ... act6
 	@echo ... bs2_default
 	@echo ... C_/Users/W11/pico-sdk/src/common/hardware_claim/claim.obj

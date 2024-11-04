@@ -40,8 +40,6 @@ C:/Users/W11/Documents/GitHub/Act6/build/pico-sdk/src/rp2040/hardware_regs/CMake
 C:/Users/W11/Documents/GitHub/Act6/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/edit_cache.dir
 C:/Users/W11/Documents/GitHub/Act6/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 C:/Users/W11/Documents/GitHub/Act6/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir
-C:/Users/W11/Documents/GitHub/Act6/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir
-C:/Users/W11/Documents/GitHub/Act6/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir
 C:/Users/W11/Documents/GitHub/Act6/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir
 C:/Users/W11/Documents/GitHub/Act6/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir
 C:/Users/W11/Documents/GitHub/Act6/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/edit_cache.dir
